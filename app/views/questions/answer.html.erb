@@ -1,0 +1,12 @@
+<br>
+<div class="container border-start border-5">
+  <p><%= @ask %></p>
+  <p class="fst-italic">-You</p>
+</div>
+<div class="container bg-warning border-start border-5" style="--bs-bg-opacity: .25;">
+  <p class="fw-bold" ><%= @answer %></p>
+  <p class="fst-italic">-Coach</p>
+</div>
+<div class="container">
+  <%= link_to "Chat to your coach again?", ask_path %>
+</div>
